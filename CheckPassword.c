@@ -30,7 +30,7 @@ int main(void) {
     if (length >= 8 && upper && lower && digit) {
         printf("IT'S A STRONG PASSWORD\n\n");
     } else {
-printf("It's a weak password\n");
+		printf("It's a weak password\n");
         printf("----Improvement----\n");
 
         if (length < 8) {
